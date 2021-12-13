@@ -1,0 +1,178 @@
+/*ETIQUETTAS */
+/* selector global */ * {
+    margin:0; padding: 0
+}
+
+header {
+    background-image: url(../fondoTro.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+h1 {
+    color: lightgreen;
+    font-size: 100px; 
+    font-weight: bold;  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+
+@keyframes  aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {    
+        opacity: 1;
+    }
+}
+ 
+h2 {
+    color: coral;
+    font-style: oblique;
+    font-size: 25px;
+    padding: 40px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: row;
+}
+header nav ul li {
+    list-style-type: none;
+    background-color: lightblue;
+    padding: 15px 100px;
+    border: 0.5% ;
+}
+
+
+/* CLASES*/
+
+
+
+.menuPrincipal{
+    color: firebrick;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.moverFooter{
+    display: block;
+    align-content: center;
+}
+
+.seccionMultimedia{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+}
+
+
+
+.textoBienvenida {
+    display: flex;
+    font-style: italic;
+    width: 50%;
+    padding: 2%;
+    margin-left:25%;
+    border: 1px solid lightcoral;
+    flex-shrink: 0.6;
+    background: linear-gradient(90deg, rgb(153, 238, 231), rgb(130, 221, 94))
+
+
+}
+
+.titulosCentrados {
+    text-align: center;
+}
+
+
+
+.transicion{
+    transition: transform .5s;
+}
+.transicion:hover{
+    transform: scale(1.5);
+}
+
+
+/*smartphones*/
+@media (max-width: 480px){
+    body {
+        font-size: 0.75rem;
+    }
+    
+    h1{
+        font-size: 50px;
+        justify-content: center;
+    }
+    header nav ul {
+        display: block;
+        justify-content: center;
+        position: relative;
+        flex-direction: row;
+        text-align: center;
+    }
+    
+    header nav ul li {
+        list-style-type: none;
+        background-color: lightblue;
+    
+        border: 0.5% ;
+    }
+
+    .seccionMultimedia{
+        display: block;
+        flex-direction: row;
+    }
+    
+    
+    .grillaAbajo{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+/*TABLETS*/
+@media (min-width:600px) and (max-width:1023px){
+    
+    header {
+        background-image: url(../fondoTro.jpg);
+        background-size: cover;
+    }
+    
+    body{
+        font-size: 1rem;
+    }
+
+    header nav ul {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        flex-direction: column;
+        text-align: center;
+    }
+   
+    
+    .seccionMultimedia{
+        display: block;
+        flex-direction: column;
+    }
+
+    .grillaAbajo{
+        display: grid;
+        grid-template-columns: 30% 30%;
+        justify-items: center;
+        
+    }
+}
+

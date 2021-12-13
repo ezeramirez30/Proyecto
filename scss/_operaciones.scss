@@ -1,0 +1,18 @@
+$tamaño:100;
+
+h1 {
+    color: lightgreen;
+    font-size: $tamaño; 
+    font-weight: bold;  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+
+h2 {
+    color: coral;
+    font-style: oblique;
+    font-size: $tamaño/4;
+    padding: 40px;
+}

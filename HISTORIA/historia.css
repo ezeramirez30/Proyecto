@@ -1,0 +1,49 @@
+/*ETIQUETTAS */
+/* selector global */ * {
+    margin:0; padding: 0
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: lightblue;
+    
+
+}
+  
+ul a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none; 
+    border-style: solid;
+    border-width: 1px;
+}
+
+ul a:hover {
+    background-color: #555;
+    color: white;
+}
+/* CLASES*/
+
+
+
+.logoPosicion{
+    position: absolute;
+    top: 0px;
+}
+
+.posicionTitulo {
+    position: absolute;
+    top: 10px;
+    left: 6%;
+}
+
+.estiloSubtitulo {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 80px;
+}

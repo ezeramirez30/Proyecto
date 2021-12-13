@@ -1,0 +1,90 @@
+/*ETIQUETTAS */
+/* selector global */ * {
+    margin:0; padding: 0
+}
+
+header {
+    background-image: url(../fondoTro.jpg);
+    background-size: cover;
+}
+
+
+
+body {
+    background-color: azure;
+}
+
+h1{
+
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: row;
+}
+
+header nav ul li {
+    list-style-type: none;
+    background-color: lightblue;
+    padding: 15px 100px;
+    border: 0.5% ;
+}
+
+/* CLASES*/
+
+.tituloTurismo{
+    color: lightgreen;
+    font-size: 55px; 
+    font-weight: bold;  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    left:5%;
+    bottom:80px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+
+.menuPrincipal{
+    color: firebrick;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+
+/*TABLETS*/
+@media (min-width:600px) and (max-width:1023px){
+    
+    header {
+        background-image: url(../fondoTro.jpg);
+        background-size: cover;
+    }
+    
+    body{
+        font-size: 1rem;
+    }
+
+    header nav ul {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        flex-direction: column;
+        text-align: center;
+    }
+   
+    
+    .seccionMultimedia{
+        display: block;
+        flex-direction: column;
+    }
+
+    .grillaAbajo{
+        display: grid;
+        grid-template-columns: 30% 30%;
+        justify-items: center;
+        
+    }
+}
+

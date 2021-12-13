@@ -1,0 +1,20 @@
+//IMPORTACION
+
+/*BLOQUE*/
+
+
+.seccionMultimedia{
+        position: relative;
+        display: flex;
+        justify-content: center;
+
+}
+    
+.seccionMultimedia__transicion{
+    margin: 30px;
+    transition: transform .5s;
+}    
+
+.seccionMultimedia__transicion:hover{
+    transform: scale(1.5);
+}

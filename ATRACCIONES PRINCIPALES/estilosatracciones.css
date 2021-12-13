@@ -1,0 +1,45 @@
+/* selector global */ * {
+    margin:0; padding: 0;
+}
+
+
+h1 {
+    color: white;
+    font-size: 100px; 
+    font-weight: bold;  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-size: auto;
+}
+
+body nav ul {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+body nav ul li {
+    list-style-type: none;
+    background-color: lightblue;
+    padding: 15px 100px
+}
+
+/* CLASES */
+
+
+.menuPrincipal{
+    color: firebrick;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.logoPosicion{
+    position: absolute;
+    top: 0px;
+}
+
+.posicionTitulo {
+    position: absolute;
+    top: 10px;
+    left: 5%;
+}
+
